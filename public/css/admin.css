@@ -1,0 +1,143 @@
+.card-box {
+    position: relative;
+    color: #fff;
+    padding: 20px 10px 40px;
+    margin: 20px 0px;
+    border-radius: 0.7rem !important;
+}
+
+.card-box:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.card-box:hover .icon i {
+    font-size: 100px;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.card-box .inner {
+    padding: 5px 10px 0 10px;
+}
+
+.card-box h3 {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    white-space: nowrap;
+    padding: 0;
+    text-align: left;
+}
+
+.card-box p {
+    font-size: 15px;
+}
+
+.card-box .icon {
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    right: 5px;
+    z-index: 0;
+    font-size: 72px;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.card-box .card-box-footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    padding: 3px 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-decoration: none;
+}
+
+.card-box:hover .card-box-footer {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.bg-users-card {
+    background-color: #FFCC00 !important;
+}
+.bg-events-card {
+    background-color: #0069EA !important;
+}
+.bg-groups-card {
+    background-color: #FF3399 !important;
+}
+.bg-teams-card {
+    background-color: #FF6633 !important;
+}
+.bg-games-card {
+    background-color: #FF6633 !important;
+}
+.bg-comments-card {
+    background-color: #33CC66 !important;
+}
+.bg-slider-card {
+    background-color: #DC0024 !important;
+}
+.hidden {
+    display: none !important;
+  }
+
+  .card {
+    border-radius: 0.7rem !important;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.table {
+    border-radius: 0.7rem !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.table.table-bordered.table-hover.home-page-table thead > tr > th {
+    background-color: #0069EA;
+    height: 45px;
+    vertical-align: middle;
+    color: #fff;
+}
+.gray-bg.dashbard-1.index-dashboard {
+    background: #fff;
+}
+table.table.table-bordered.table-hover.home-page-table td {
+    vertical-align: middle;
+}
+.form-control > input[type="color"] {
+    height: 35px !important;
+}
+
+.page-title-custom {
+    margin-left: -14px;
+    height: 35px;
+    margin-top: 22px;
+    font-size: large;
+    color: #0069ea;
+}
+.rounded-circle.profile-image-custom {
+    width: 100px;
+      height: 100px;
+      margin-left: 30px;
+  }
+
+  .profile-dropdown-custom{
+  text-align: center;
+  }
+  
+
+  .eye_password {
+    margin-left: -30px;
+    cursor: pointer;
+    display: flex !important;
+    align-content: stretch;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: -24px;
+    margin-right: 10px;
+    float: right;
+  }

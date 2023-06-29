@@ -1,0 +1,109 @@
+.teams_pagination {
+    width: 100%;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #dc0024 !important; 
+}
+.select2-results { 
+    background-color:  #dc0024 !important; 
+}
+
+.select2-container--default.select2-container--disabled .select2-selection--multiple{
+    background-color:rgb(17, 65, 170) !important; 
+    cursor:default
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected]{
+    background-color:rgb(17, 65, 170) !important; 
+    color:white
+}
+.select2-container--default .select2-results__option[aria-selected=true]{
+    background-color:#FF3399 !important
+}
+.select2-search__field {
+    color: #000 !important;
+}
+.wrapper > ul#results li {
+    margin-bottom: 2px;
+    background: #e2e2e2;
+    padding: 20px;
+    width: 97%;
+    list-style: none;
+  }
+  .ajax-loading {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+  div#team_list {
+    max-height: 500px;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-bottom: 20px;
+}
+ #team_list::-webkit-scrollbar {
+    display:none;
+  }
+  /* .shadow_r {
+    opacity: 1;
+  } */
+.ajax-loading img{
+    width: 45px;
+}
+.stickyheader.fixedheader {
+    position: fixed;
+    z-index: 1;
+    background: #000;
+    width: 100%;
+}
+.teamscroll
+{
+    margin-top: 134px;
+}
+.tox-statusbar__branding {
+    display: none;
+}
+.tox-statusbar {
+    display: none !important;
+}
+.tox-notifications-container {
+    display: none;
+}
+
+/* 
+.tox.tox-dialog-wrap__backdrop--opaque {
+    background-color:  none !important;
+ }
+ 
+ .tox .tox-dialog-wrap__backdrop {
+   background-color:  none !important;
+ } */
+
+ .winners-text-decoration {
+    text-decoration: line-through;
+ }
+
+.row.no-gutters iframe {   
+    width: 368px;
+}
+table.table.sortable_table iframe {
+    height: 57px;
+}

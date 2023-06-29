@@ -1,0 +1,54 @@
+.wallet-heading{
+    font-size: larger;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.subscription-plan{
+    font-size:medium;
+    font-weight: bolder;
+}
+.subscription-plan-expiry{
+    font-size:medium;
+    font-weight: bolder;
+}
+.event-partecipate{
+    font-size:medium;
+    font-weight: bolder;
+}
+.event-organization{
+    font-size:medium;
+    font-weight: bolder;
+}
+.created-team{
+    font-size:medium;
+    font-weight: bolder;
+}
+.joined-team{
+    font-size:medium;
+    font-weight: bolder;
+}
+.created-group{
+    font-size:medium;
+    font-weight: bolder;
+}   
+.joined-group{
+    font-size:medium;
+    font-weight: bolder;
+}
+.clr-red{
+    color: red;
+    font-weight:bolder;
+    font-size: large;
+}
+.date-clr{
+    color:gray;
+}
+.description-clr{
+    color: red;
+}
+.amount-clr{
+    color: gray;
+}
